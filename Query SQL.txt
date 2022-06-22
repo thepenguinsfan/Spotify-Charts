@@ -1,0 +1,3 @@
+SELECT trackID, track_name, artist_id, artist_name, most_streamed_year from track
+INNER JOIN artist ON track.artist_id=artist.artistID
+ORDER BY most_streamed_year ASC;
